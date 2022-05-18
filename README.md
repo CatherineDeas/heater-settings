@@ -1,8 +1,13 @@
 # heater-settings application
 An app to determine the appropriate settings for a night storage heater
 
-## How to run the application:
-Run the following command:
+## Setup
+
+```
+bundle install
+```
+## How to run the application
+
 ```
 ruby heater-settings.rb
 ```
