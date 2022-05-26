@@ -11,6 +11,10 @@ bundle install
 ```
 ruby heater-settings.rb
 ```
+## How to run the tests
+```
+rspec
+```
 ## The problem
 The app gives us the required setting for a night storage heater, which can have settings from 1 to 6, 1 being low and 6 being high, based on the weather forecast for the following day.
 
