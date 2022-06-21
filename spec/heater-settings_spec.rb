@@ -61,5 +61,45 @@ describe 'the required setting when given a temperature value' do
         expect(result).to eq(setting)
     end
 
+    it 'given a temperature of 16C, returns a setting of 1' do
+        #Arrange
+        temperature = 16
+        setting = 1
+        #Act
+        result = find_setting(temperature)
+        #Assert
+        expect(result).to eq(setting)
+    end
+
+    it 'given a temperature of -1C, returns a setting of 4.5' do
+        #Arrange
+        temperature = -1
+        setting = 4.5
+        #Act
+        result = find_setting(temperature)
+        #Assert
+        expect(result).to eq(setting)
+    end
+
+    it 'given a temperature of -2C, returns a setting of 4.5' do
+        #Arrange
+        temperature = -2
+        setting = 4.5
+        #Act
+        result = find_setting(temperature)
+        #Assert
+        expect(result).to eq(setting)
+    end
+
+    it 'given a temperature of -3C, returns a setting of 4.5' do
+        #Arrange
+        temperature = -3
+        setting = 4.5
+        #Act
+        result = find_setting(temperature)
+        #Assert
+        expect(result).to eq(setting)
+    end
+
 end
  
