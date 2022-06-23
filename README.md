@@ -26,5 +26,5 @@ The app gives us the required setting for a night storage heater, which can have
 | 6C < T° <= 9C   | 3        |
 | 9C < T° <= 12C  | 2.5      |
 | 12C < T° <= 14C | 2        |
-| 14C < T° <= 16C | 1.5      |
+| 14C < T° < 16C  | 1.5      |
 | >= 16C          | 1        |
