@@ -13,8 +13,8 @@ describe 'the required setting when given a temperature value' do
         12 => 2,
         14 => 1.5,
         16 => 1,
-        17 => 1,
-        18 => 1
+        17 => 0,
+        18 => 0
     }
 
     expected_values.each do |temperature, expected_setting| 

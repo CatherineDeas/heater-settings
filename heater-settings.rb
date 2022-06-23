@@ -13,8 +13,10 @@ def find_setting(temperature)
         return 2
     elsif temperature == 14
         return 1.5
-    else
+    elsif temperature == 16
         return 1
+    else
+        return 0
     end
 end
 
